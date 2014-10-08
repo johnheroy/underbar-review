@@ -1,0 +1,26 @@
+{
+  "name": "underbar-review",
+  "version": "1.0.0",
+  "description": "Hack Reactor review session",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnheroy/underbar-review.git"
+  },
+  "keywords": [
+    "Underscore"
+  ],
+  "author": "John Heroy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnheroy/underbar-review/issues"
+  },
+  "homepage": "https://github.com/johnheroy/underbar-review",
+  "dependencies": {
+    "sinon": "^1.10.3",
+    "underscore": "^1.7.0"
+  }
+}
