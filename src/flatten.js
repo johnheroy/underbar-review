@@ -1,21 +1,8 @@
 var _ = require('underscore');
 
 var flatten = function(nestedArray, result) {
-  var flattenArray = function(array){
-    var results = [];
-    for(var i = 0; i < array.length; i++){
-      if(Array.isArray(array[i])){
-        var subArray = flattenArray(array[i]);
-        while(subArray.length > 0){
-          results.push(subArray.shift());
-        }
-      } else{
-        results.push(array[i]);
-      }
-    }
-    return results;
-  };
-  return flattenArray(nestedArray);
+  // use recursion
+  
 };
 
 // can flatten nested arrays

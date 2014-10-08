@@ -5,19 +5,6 @@ var map = function(collection, iterator) {
   // like each(), but in addition to running the operation on all
   // the members, it also maintains an array of results.
 
-  if (Array.isArray(collection)) {
-    var result = [];
-    for (var i = 0; i < collection.length; i++){
-      result.push(iterator(collection[i], i, collection));
-    }
-    return result;
-  } else {
-    var result = {};
-    for (var k in collection) {
-      result[k] = iterator(collection[k], k, collection);
-    }
-    return result;  
-  }
 };
 
 // should apply a function to every value in an array

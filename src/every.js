@@ -2,12 +2,7 @@ var _ = require('underscore');
 
 var every = function(collection, iterator) {
   // TIP: Try re-using reduce() here.
-  return _.reduce(collection, function(passedTest, item) {
-    if (!passedTest) {
-      return false;
-    }
-    return iterator === undefined ? item : !!iterator(item);
-  }, true);
+  
 };
 
 console.log('passes by default for an empty collection');

@@ -1,10 +1,8 @@
 var _ = require('underscore');
 
 var invoke = function(collection, functionOrKey, args) {
-  var isFunction = functionOrKey.toString() !== functionOrKey;
-  return _.map(collection, function(item) {
-    return isFunction ? functionOrKey.apply(item) : item[functionOrKey].apply(item);
-  });
+  // use _.map()
+  
 };
 
 // when provided a func ref

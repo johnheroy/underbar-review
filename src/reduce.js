@@ -1,13 +1,8 @@
 var _ = require('underscore');
 
 var reduce = function(collection, iterator, accumulator) {
-  var result = accumulator === undefined ? collection[0] : accumulator;
-  _.each(collection, function(item, index) {
-    if (accumulator !== undefined || index !== 0){
-      result = iterator(result, item);
-    }
-  });
-  return result;
+  // use _.each()
+  
 };
 
 
