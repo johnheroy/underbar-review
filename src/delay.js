@@ -2,7 +2,7 @@ var _ = require('underscore');
 var sinon = require('sinon');
 
 var delay = function(func, wait) {
-  // use .apply() for arguments
+
 };
 
 var clock;

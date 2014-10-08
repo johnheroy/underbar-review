@@ -1,7 +1,7 @@
 var _ = require('underscore');
 
 var reduce = function(collection, iterator, accumulator) {
-  // use _.each()
+
   
 };
 

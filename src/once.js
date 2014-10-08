@@ -1,7 +1,7 @@
 var _ = require('underscore');
 
 var once = function(func) {
-  // use a closure and return a function definition
+
   
 };
 

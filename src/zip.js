@@ -1,7 +1,7 @@
 var _ = require('underscore');
 
 var zip = function() {
-  // try implementing in 4 steps with _.pluck()
+
   
 };
 

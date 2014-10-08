@@ -1,7 +1,7 @@
 var _ = require('underscore');
 
 var flatten = function(nestedArray, result) {
-  // use recursion
+
   
 };
 

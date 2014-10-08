@@ -1,7 +1,7 @@
 var _ = require('underscore');
 
 var invoke = function(collection, functionOrKey, args) {
-  // use _.map()
+
   
 };
 

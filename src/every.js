@@ -1,7 +1,7 @@
 var _ = require('underscore');
 
 var every = function(collection, iterator) {
-  // TIP: Try re-using reduce() here.
+
   
 };
 
